@@ -1,11 +1,52 @@
-/* 
+body {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  margin: 0;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.contador-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-*/
+.contador-title {
+  background-color: #222;
+  border: 2px solid gray;
+  border-radius: 10px;
+  width: 80px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+.contador-digits {
+  display: flex;
+  gap: 15px;
+}
+
+.digit-box {
+  background-color: #222;
+  border: 2px solid gray;
+  border-radius: 10px;
+  width: 80px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0 0 10px rgba(175, 185, 183, 0.3);
+  transition: transform 0.2s;
+}
+
+.digit-box:hover {
+  transform: scale(1.1);
+}
