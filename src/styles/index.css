@@ -43,10 +43,6 @@ body {
   font-size: 3rem;
   font-weight: bold;
   color: white;
-  box-shadow: 0 0 10px rgba(175, 185, 183, 0.3);
-  transition: transform 0.2s;
 }
 
-.digit-box:hover {
-  transform: scale(1.1);
-}
+
